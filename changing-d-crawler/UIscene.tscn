@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://bmjie35cxhah3"]
+
+[node name="Control" type="Control" unique_id=2128350261]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=200526891]
+layout_mode = 0
+offset_left = 64.0
+offset_top = -256.0
+offset_right = 384.0
+offset_bottom = -64.0
+color = Color(0, 0, 0, 1)
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="ColorRect" unique_id=85914820]
+layout_mode = 0
+offset_top = -448.0
+offset_right = 960.0
+offset_bottom = -64.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ColorRect" unique_id=1131500676]
+layout_mode = 0
+offset_right = 320.0
+offset_bottom = 192.0
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=125646196]
+layout_mode = 0
+offset_left = 448.0
+offset_top = -256.0
+offset_right = 640.0
+offset_bottom = -64.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="." unique_id=75042863]
+layout_mode = 0
+offset_left = 704.0
+offset_top = -256.0
+offset_right = 1024.0
+offset_bottom = -64.0
+color = Color(0, 0, 0, 1)
